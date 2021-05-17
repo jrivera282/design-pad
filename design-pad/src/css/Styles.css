@@ -1,0 +1,88 @@
+/* Design Container */
+
+.main-heading{
+  text-transform: uppercase;
+  font-size: 4rem;
+  display: inline-block;
+  font-weight: normal;
+  position: relative;
+  text-align: center;
+  
+}
+
+.Edit-Mode-Default {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+  text-align: right;
+  display: inline-block;
+  padding: 10px;
+  font-weight: normal;
+  left: 300px;
+  bottom: 14px;
+    
+}
+  
+.Edit-Mode-Active {
+  background-color: red;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  text-align: right;
+  font-weight: normal;
+  left: 300px;
+  bottom: 14px;
+}
+
+/* Design Pad */
+
+.hpad {
+    padding: 0;
+    margin: 5px;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border-radius: 25px;
+    top: -360px;
+    left: 80px;
+    position: relative;
+    
+  }
+
+  /* Pad Input */
+
+  .main-container {
+    border: 5px solid black;
+    padding: 30px;
+    background-color: blue;
+    margin: 20px;
+    width: 100px;
+  }
+
+  
+  .rows {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 15px;
+    
+    
+    
+  }
+  
+  .rows > div {
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 4px;
+    background-color: lightgray;
+    display: inline-block;
+    text-align: center;
+    
+  }

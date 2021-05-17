@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 import './App.css';
-import EditButton from './components/editButton';
+
+import DesignContainer from "./components/DesignContainer";
 
 function App() {
   return (
     <div className="App">
-        <EditButton />
+      <DesignContainer />
     </div>
   );
 }
