@@ -12,7 +12,7 @@ class EditButton extends React.Component{
 
   changeEditMode = () => {
     if (this.state.inEditMode === true){
-      // flip the states
+      // flip the states - 
       this.setState({inEditMode: false, button_clickability:'editButton_enabled'})
     }
     else (
