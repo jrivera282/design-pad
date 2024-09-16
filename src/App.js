@@ -5,7 +5,7 @@ import EditButton from './components/editButton';
 function App() {
   return (
     <div className="App">
-        <EditButton />
+        <EditButton />  
     </div>
   );
 }
